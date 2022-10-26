@@ -1,8 +1,23 @@
 *{
-    justify-content: center;
+    justify-content:right; 
+     text-align: center;
+    background-color: bisque;
+    /* content: inherit; */
+}
+h1{
+    color: rgb(244, 9, 9);
+}
+p{ color: rgb(248, 0, 0);
+   font-size: 50px;
+   font-weight: bold;
+}
+
+button{
+    size: 100px;
 }
 .input {
-    border: 1px solid #ddd;
+    
+    border: 1px solid rgb(190, 8, 8);
     border-radius: 1px;
     font-size: 2.5rem;
     height: 60px;
@@ -10,18 +25,17 @@
     overflow-x: auto;
     padding-right: 1rem;
     padding-top: 10px;
-    text-align: right;
     transition: all .2s ease-in-out;
 }
 
 .input:hover {
-    border: 1px solid #bbb;
+    border: 1px solid rgb(82, 8, 239);
     -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
 .task{
-    border: 1px solid #ddd;
+    border: 1px solid rgb(4, 208, 244);
     border-radius: 1px;
     font-size: 2.5rem;
     height: 60px;
@@ -31,13 +45,7 @@
     padding-top: 10px;
     text-align: right;
     transition: all .2s ease-in-out;
-    background-color: steelblue;
-    max-width: 25%;
-    display: flex;
-    justify-content: space-between;
+    
 }
 
-#remove{
-    /* background-color: steelblue; */
-    /* border: none; */
-}
+
